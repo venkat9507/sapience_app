@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "472516847364",
+    "project_id": "check-in-system-7b9a4",
+    "storage_bucket": "check-in-system-7b9a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472516847364:android:5b6d2159bd75400e255251",
+        "android_client_info": {
+          "package_name": "com.example.nimu_tv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472516847364-mg3pn6nem46r522lfvmi78smane5tl4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLoFDagJzYFC8ele56U2XosK3-9dviBzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472516847364-mg3pn6nem46r522lfvmi78smane5tl4j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "472516847364-bn43ahd0r2v3rr5u7jm7tpoiefuf30vv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.whatsapp.unknownWhatsapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472516847364:android:473d9b83f7dfaf5b255251",
+        "android_client_info": {
+          "package_name": "com.farmer.farmer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472516847364-ljb0mlorjgtqqu1r07udg2c8olk0gils.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farmer.farmer",
+            "certificate_hash": "7c9a8cdb0c763b31779cbfe80ae517f5e6e5a3d5"
+          }
+        },
+        {
+          "client_id": "472516847364-pmam1kqd2qe3di9bdpk73i62b5njbofo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farmer.farmer",
+            "certificate_hash": "43b53ba4c3043c1fa711c9db4876a14640b4a71d"
+          }
+        },
+        {
+          "client_id": "472516847364-mg3pn6nem46r522lfvmi78smane5tl4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLoFDagJzYFC8ele56U2XosK3-9dviBzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472516847364-mg3pn6nem46r522lfvmi78smane5tl4j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "472516847364-bn43ahd0r2v3rr5u7jm7tpoiefuf30vv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.whatsapp.unknownWhatsapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472516847364:android:8c1d6c76747db79e255251",
+        "android_client_info": {
+          "package_name": "com.whatsapp.unknown_whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472516847364-mg3pn6nem46r522lfvmi78smane5tl4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLoFDagJzYFC8ele56U2XosK3-9dviBzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472516847364-mg3pn6nem46r522lfvmi78smane5tl4j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "472516847364-bn43ahd0r2v3rr5u7jm7tpoiefuf30vv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.whatsapp.unknownWhatsapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
