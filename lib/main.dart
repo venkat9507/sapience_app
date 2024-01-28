@@ -255,36 +255,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
         return Scaffold(
           body:
           internetStatus!.value != 'none' ?
-          StreamBuilder(
-              stream: FirebaseFirestore.instance
-                  .collection('sapienceAppPermission')
-                  .doc('sapiencePermission')
-                  .snapshots(includeMetadataChanges: true),
-              builder: (BuildContext context,
-                  AsyncSnapshot<DocumentSnapshot<Map<String, dynamic>>>
-                  snapshot) {
-                // print('checking the connection state ${snapshot.connectionState}');
-                if (snapshot.hasError) {
-                  return Center(child: Text('Something went wrong'));
-                }
-
-                if (snapshot.connectionState == ConnectionState.waiting) {
-                  return Center(child: Text("Loading..."));
-                }
-                if (snapshot.connectionState == ConnectionState.active) {
-                  // print('checking the connection state ${snapshot.connectionState}'
-                  //     'checking the map data ${snapshot.data!['isAppBlocked']}');
-                  if (snapshot.data!['isAppBlocked']) {
-                    return Center(
-                        child:
-                        Text('Please Contact The Developer App is Blocked'));
-                  } else if (snapshot.data!['isAppBlocked'] == false) {
-                    return const SplashScreenView();
-                  }
-                }
-
-                return Container();
-              }) : SplashScreenView(),
+          SplashScreenView() : SplashScreenView(),
           // body:
           // SplashScreenView()
           // FoodTypesScreenView(title: 'Healthy meals',)

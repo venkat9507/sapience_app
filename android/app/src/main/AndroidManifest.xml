@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.nimu_tv">
+    package="com.sapience.students">
     <uses-feature
         android:required="false"
         android:name="android.software.leanback" />

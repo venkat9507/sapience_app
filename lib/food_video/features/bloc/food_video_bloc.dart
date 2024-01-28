@@ -61,19 +61,19 @@ class FoodVideoBloc extends Bloc<FoodVideoEvent, FoodVideoState> {
     }
 
     if(foodVideoModel != null){
-      if(foodVideoModel!.data.videoUrl.contains('/data/user/0/com.example.nimu_tv/app_flutter/video-url/')){
-        var lastVideoUrl =  foodVideoModel!.data.videoUrl.split('/data/user/0/com.example.nimu_tv/app_flutter/video-url/').last;
+      if(foodVideoModel!.data.videoUrl.contains('/data/user/0/com.sapience.students/app_flutter/video-url/')){
+        var lastVideoUrl =  foodVideoModel!.data.videoUrl.split('/data/user/0/com.sapience.students/app_flutter/video-url/').last;
         foodVideoModel!.data.videoUrl = lastVideoUrl;
         print('lastVideoUrl $lastVideoUrl');
       }
 
       var isFileExists = await File(
-          '/data/user/0/com.example.nimu_tv/app_flutter/video-url/${foodVideoModel!
+          '/data/user/0/com.sapience.students/app_flutter/video-url/${foodVideoModel!
               .data.videoUrl}').exists();
 
       if (isFileExists) {
         foodVideoModel!.data.videoUrl =
-        '/data/user/0/com.example.nimu_tv/app_flutter/video-url/${foodVideoModel!
+        '/data/user/0/com.sapience.students/app_flutter/video-url/${foodVideoModel!
             .data.videoUrl}';
         checkDownload = true;
         await Future.delayed(const Duration(milliseconds: 300));
@@ -130,14 +130,14 @@ class FoodVideoBloc extends Bloc<FoodVideoEvent, FoodVideoState> {
           // dashboardModel!.data.add(DashboardList(index: 3, name: 'DTTC', active: 1, isSelected: false,description: null,createdAt: null,updatedAt: null));
           // dashboardModel!.data.sort((a,b)=> a.index.compareTo(b.index));
           var isFileExists = await File(
-              '/data/user/0/com.example.nimu_tv/app_flutter/video-url/${foodVideoModel!
+              '/data/user/0/com.sapience.students/app_flutter/video-url/${foodVideoModel!
                   .data.videoUrl}').exists();
           debugPrint(' checking file exists ${foodVideoModel!.data
               .videoUrl} is file exists $isFileExists');
 
           if (isFileExists) {
             foodVideoModel!.data.videoUrl =
-            '/data/user/0/com.example.nimu_tv/app_flutter/video-url/${foodVideoModel!
+            '/data/user/0/com.sapience.students/app_flutter/video-url/${foodVideoModel!
                 .data.videoUrl}';
             checkDownload = true;
             await Future.delayed(const Duration(milliseconds: 300));

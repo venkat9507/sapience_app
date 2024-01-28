@@ -82,7 +82,7 @@ class FoodVideoInsideScreenViewState extends State<FoodVideoInsideScreenView> {
       foodController = VideoPlayerController.network('${widget.videoUrl}');
     }
 
-    // _controller = VideoPlayerController.file(File('/data/user/0/com.example.nimu_tv/app_flutter/https://www.sapiencepublications.co.in/storage/uploads/v2d8OaCSfzleDWlwuZbXEEBA7pmfCDvaYEkRJ1cP.mp4'));
+    // _controller = VideoPlayerController.file(File('/data/user/0/com.sapience.students/app_flutter/https://www.sapiencepublications.co.in/storage/uploads/v2d8OaCSfzleDWlwuZbXEEBA7pmfCDvaYEkRJ1cP.mp4'));
 
     foodController?.addListener(() {
       setState(() {

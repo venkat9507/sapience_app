@@ -119,7 +119,7 @@ class FoodInsideModelList {
 }
 
 Future<bool> checkingTheFoodDownloadFile(String videoUrl) async {
-  var isFileExists =  await File('/data/user/0/com.example.nimu_tv/app_flutter/video-url/$videoUrl').exists();
+  var isFileExists =  await File('/data/user/0/com.sapience.students/app_flutter/video-url/$videoUrl').exists();
 
   if(isFileExists) {
     return true;

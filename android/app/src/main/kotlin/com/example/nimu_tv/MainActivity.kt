@@ -1,4 +1,4 @@
-package com.example.nimu_tv
+package com.sapience.students
 
 //import io.flutter.embedding.android.FlutterActivity
 //
